@@ -54,6 +54,7 @@ const Line = styled.hr`
 const Para = styled.p`
   letter-spacing: 0.4rem;
   text-transform: uppercase;
+  cursor: pointer;
 
   &:last-child {
     margin-bottom: 2.4rem;
@@ -68,6 +69,7 @@ const Icons = styled.div`
 `;
 
 const Icon = styled.p`
+  cursor: pointer;
   font-size: 1.3rem;
   width: 45px;
   height: 45px;
